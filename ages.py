@@ -19,3 +19,10 @@ print(adults)
 for i in range(4):
   print(i)
 
+for age in ages2:
+  if age < 40:
+    print(str(age) + ' Still young!')
+    break
+else:
+  print(str(age) + ' Young at heart...') # never hits because the loop breaks earlier
+
